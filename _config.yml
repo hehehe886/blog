@@ -16,7 +16,7 @@ date_format: '%Y-%m-%d'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
 baseurl:
-#permalink: pretty
+permalink: pretty
 
 # Pagination
 paginate: 10
@@ -134,12 +134,12 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  about: user
+  #about: user
   categories: th
   schedule: calendar
-  tags: tags
+  #tags: tags
   archives: archive
-  sitemap: sitemap
+  #sitemap: sitemap
   commonweal: heartbeat
 
 
@@ -256,7 +256,7 @@ toc:
 sidebar:
   # Sidebar Position, available value: left | right
   #position: left
-  position: right
+  position: left
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
